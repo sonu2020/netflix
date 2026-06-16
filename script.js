@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>My Site</title>
+    <title>Movies</title>
   </head>
   <body>
     <h1>Hello Sonu</h1>
