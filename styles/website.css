@@ -1,0 +1,85 @@
+/* body {
+  background-color: #40144c;
+} */
+.movie-name:hover {
+  text-decoration: underline;
+}
+.movie-name:active {
+  opacity: 0.8;
+}
+
+.search-bar {
+  width: 1630px;
+  height: 25px;
+  background-color: #e6e6e6;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+}
+.thumbnail {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  object-fit: cover;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  margin-top: 0.4%;
+}
+.thumbnail2 {
+  width: 300px;
+  height: 300px;
+  margin-left: 20px;
+  object-fit: cover;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+  margin-top: 0.8%;
+}
+div.scrollmenu {
+  background-color: #e6e6e6;
+  overflow: auto;
+  white-space: nowrap;
+  height: 350px;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #dad5d5;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: #40144c;
+  padding-left: 20px;
+  padding-top: 0.5%;
+  font-style: inherit;
+  margin-bottom: 0.5%;
+}
+.sub-title {
+  font-size: 15px;
+  font-style: unset;
+  padding-left: 20px;
+  line-height: 0.2px;
+  color: gray;
+  margin-top: 0.6%;
+  margin-bottom: 40px;
+}
+.movie-name {
+  font-size: 20px;
+  padding-left: 20px;
+  color: #390149;
+  margin-top: 0.4%;
+  cursor: pointer;
+}
