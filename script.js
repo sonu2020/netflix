@@ -1,0 +1,7 @@
+<html>
+  <body>
+    <h1>My Website</h1>
+
+    <script src="script.js"></script>
+  </body>
+</html>;

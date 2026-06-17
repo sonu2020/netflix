@@ -7,7 +7,9 @@
 .movie-name:active {
   opacity: 0.8;
 }
-
+body {
+  background-color: rgb(11, 10, 10);
+}
 .search-bar {
   width: 1200px;
   height: 25px;
@@ -25,6 +27,7 @@
   border-color: white;
   border-style: solid;
   border-width: 4px;
+  border-radius: 12%;
   margin-top: 0.4%;
 }
 /* .thumbnail2 {
@@ -38,7 +41,7 @@
   margin-top: 0.8%;
 } */
 div.scrollmenu {
-  background-color: #e6e6e6;
+  background-color: rgb(18, 18, 18);
   overflow: auto;
   white-space: nowrap;
   height: 350px;
@@ -46,7 +49,7 @@ div.scrollmenu {
 
 div.scrollmenu a {
   display: inline-block;
-  color: white;
+  color: rgb(18, 18, 18);
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
@@ -61,7 +64,7 @@ div.scrollmenu a:hover {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
   font-weight: bold;
-  color: #40144c;
+  color: gray;
   padding-left: 20px;
   padding-top: 0.5%;
   font-style: inherit;
@@ -80,7 +83,7 @@ div.scrollmenu a:hover {
 .movie-name {
   font-size: 20px;
   padding-left: 20px;
-  color: #390149;
+  color: gray;
   margin-top: 0.4%;
   cursor: pointer;
 }
@@ -102,6 +105,7 @@ div.scrollmenu a:hover {
   padding: 7px 17px;
   color: white;
   display: flex;
+  margin-right: 0.8%;
   flex-direction: row;
   border-radius: 3px;
 }
@@ -114,7 +118,7 @@ div.scrollmenu a:hover {
 }
 @media (max-width: 600px) {
   body {
-    background-color: brown;
+    background-color: rgb(18, 18, 18);
     color: white;
   }
 }
