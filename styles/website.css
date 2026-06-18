@@ -7,7 +7,7 @@
 .movie-name:active {
   opacity: 0.8;
 }
-
+/* 
 .search-bar {
   width: 1200px;
   height: 25px;
@@ -16,16 +16,19 @@
   color: white;
   font-weight: bold;
   align-items: center;
-}
+} */
 .thumbnail {
   width: 300px;
   height: 300px;
   margin-left: 20px;
-  object-fit: cover;
-  border-color: white;
+  object-fit: contain;
+  border-color: rgb(34, 29, 29);
   border-style: solid;
+  background-color: rgb(34, 29, 29);
   border-width: 4px;
+  border-radius: 15px;
   margin-top: 0.4%;
+  margin-right: 20px;
 }
 /* .thumbnail2 {
   width: 300px;
@@ -68,15 +71,7 @@ div.scrollmenu a:hover {
   margin-bottom: 0.5%;
   padding-bottom: 12px;
 }
-.sub-title {
-  font-size: 15px;
-  font-style: unset;
-  padding-left: 20px;
-  line-height: 0.2px;
-  color: gray;
-  margin-top: 0.6%;
-  margin-bottom: 40px;
-}
+
 .movie-name {
   font-size: 20px;
   padding-left: 20px;
@@ -98,10 +93,13 @@ div.scrollmenu a:hover {
   align-self: center;
 }
 .buttons {
-  background-color: #e50914;
-  padding: 7px 17px;
+  background-color: #eb030e;
+  padding: 9px;
   color: white;
+  border: #eb030e;
+  margin-right: 20px;
   display: flex;
+  font-weight: bold;
   flex-direction: row;
   border-radius: 3px;
 }
