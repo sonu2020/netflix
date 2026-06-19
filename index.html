@@ -1,7 +1,12 @@
 <!doctype html>
 <html>
   <head>
-    <title>NETFLIX</title>
+    <title>MALLUFLIX</title>
+<style>
+    body {
+    background-color: rgb(0, 0, 0);
+    }
+</style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/website.css" />
@@ -12,15 +17,15 @@
   </head>
   <body>
     <div class="navbar">
-      <h2 class="logo">NETFLIX</h2>
-      <button class="buttons" onclick="getName()">SIGN IN</button>
+      <h2 class="logo">MALLUFLIX</h2>
+      <button class="buttons" onclick="exitForm()">Exit</button>
       <script>
-        function getName() {
-          let name = prompt("What is your email address?");
-          if (name) {
-            alert("Hello, " + name);
-          }
+        function exitForm() {
+               let confirmExit = confirm("Are you sure you want to exit?");
+        if (confirmExit) {
+          window.close();
         }
+      }
       </script>
     </div>
     <h1 class="title">Trending Now &#xBB;</h1>
@@ -31,9 +36,6 @@
       <a href="https://www.youtube.com/watch?v=i9oyEVASDes" target="_blank">
       <img class="thumbnail" src="thumbnails/thalavar.jpg" />
       </a>   
-      <a href=" https://www.youtube.com/watch?v=bROIs4zMgjo" target="_blank">
-      <img class="thumbnail" src="thumbnails/1983.jpg" />
-      </a>
       <a href=" https://www.youtube.com/watch?v=zbBeOyyl8RY" target="_blank">
       <img class="thumbnail" src="thumbnails/ishq.webp" />
       </a>
@@ -45,6 +47,9 @@
       </a>
       <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
       <img class="thumbnail" src="thumbnails/2018.jpg " />
+      </a>
+       <a href=" https://www.youtube.com/watch?v=bROIs4zMgjo" target="_blank">
+      <img class="thumbnail" src="thumbnails/1983.jpg" />
       </a>
     </div>
     </p>
@@ -61,9 +66,6 @@
       </a>
       <a href="https://www.youtube.com/watch?v=v0-J9V6bZS8" target="_blank">
       <img class="thumbnail" src="thumbnails/padayotam.jpg" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
-      </a>
       <a href=" https://www.youtube.com/watch?v=UISTDTV-PI4" target="_blank">
       <img class="thumbnail" src="thumbnails/carbon movie.jpg" />
       </a>
