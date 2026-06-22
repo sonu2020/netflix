@@ -119,7 +119,7 @@ div.scrollmenu a:hover {
   font-family: "Georgia", serif;
   padding-top: 3px;
 }
-.filterbutton {
+/* .filterbutton {
   background-color: red;
   margin-left: 30px;
   margin-top: 10px;
@@ -130,7 +130,42 @@ div.scrollmenu a:hover {
   border-radius: 10px;
   height: 25px;
   width: 120px;
+} */
+.ul {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
+ul a {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  height: 25px;
+  width: 90px;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: block;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+ul a:hover {
+  background-color: rgb(211, 38, 38);
+}
+section {
+  float: left;
+}
+section img {
+  width: 300px;
+  height: 300px;
+  display: none;
+  margin: 10px;
+  float: left;
+}
+section :target img {
+  display: block;
+}
+
 @media (max-width: 600px) {
   body {
     background-color: brown;
