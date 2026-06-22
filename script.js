@@ -1,9 +1,7 @@
-<html>
-  <head>
-    <title>Movies</title>
-  </head>
-  <body>
-    <h1>Malayalam Movies</h1>
-    <script src="script.js"></script>
-  </body>
-</html>;
+const names = ["John", "Alice", "Bob", "Andrew", "Bbaby", "mpon"];
+
+const result = names.filter(function (name) {
+  return name.startsWith("B");
+});
+
+console.log(result);
