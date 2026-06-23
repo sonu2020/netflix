@@ -2,23 +2,22 @@
 <html>
   <head>
     <title>MALLUFLIX</title>
-<style>
+  <style>
     body {
     background-color: rgb(0, 0, 0);
     }
-</style>
+  </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/website.css" />
     <link rel="scrollmenu" href="styles/website.css" />
     <link rel="search-bar" href="styles/website.css" />
     <link rel="thumbnail" href="styles/website.css" />
-    <!-- <link rel="thumbnail2" href="styles/website.css" /> -->
   </head>
   
     <div class="navbar">
       <h2 class="logo">MALLUFLIX</h2>
-      <button class="buttons" onclick="exitForm()">Exit</button>
+      <button class="button" onclick="exitForm()">Exit</button>
       <script>
         function exitForm() {
                let confirmExit = confirm("Are you sure you want to exit?");
@@ -28,152 +27,213 @@
       }
       </script>
     </div>
-   
- <ul>
-      <a href="#Malayalam" >Malayalam</a>
-      <a href="#Hindi" >Hindi</a>
-      <a href="#English" >English</a>
-    </ul>
-    
-       <section id="Malayalam">
-        <img src="thumbnails/carbon movie.jpg">
-        <img src="thumbnails/drishym.jpg">
-        <img src="thumbnails/koothara.jpg">
-        <img src="thumbnails/thalavar.jpg">
-    </section>
-    <section id="Hindi">
-      <img src="thumbnails/underworld.png">
-      <img src="thumbnails/images.jpg">
-    </section>
-   <section id="English">
-      <img src="thumbnails/eng1.jpg">
-      <img src="thumbnails/eng2.jpg">
-      <img src="thumbnails/eng3.jpg">
-      <img src="thumbnails/eng4.jpg">
-      <img src="thumbnails/eng5.jpg">
-      <img src="thumbnails/eng6.jpg">
-      <img src="thumbnails/eng7.jpg">
-    </section>
-    
-    
-   
-    <!-- <div>
-      <select class="filterbutton" id="select">
-        <option>Malayalam</option>
-        <option>Hindi</option>
-        <option>English</option>
-      </select>
-    </div> -->
-    <!-- <button class="filterbutton"onclick="showEvenNumbers()">Malayalam Movies</button> -->
-     <!-- <button onclick="sortNumbers()">Sort</button>
-      <p id="output"></p>
-      <script>
-      const numbers = [50, 10, 30, 20];
-      function sortNumbers() {
-      numbers.sort((a, b) => a - b);
-      document.getElementById("output").innerHTML =
-      numbers.join(", ");
-}
-</script> -->
-    <h1 class="title">Trending Now &#xBB;</h1> 
-    <div class="scrollmenu">
-      <a href="https://www.youtube.com/watch?v=Bw6H-Ir1YJs" target="_blank">
-      <img class="thumbnail" src="thumbnails/Meko.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=i9oyEVASDes" target="_blank">
-      <img class="thumbnail" src="thumbnails/thalavar.jpg" />
-      </a>   
-      <a href=" https://www.youtube.com/watch?v=zbBeOyyl8RY" target="_blank">
-      <img class="thumbnail" src="thumbnails/ishq.webp" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=AdwGOloQcAs" target="_blank">
-      <img class="thumbnail" src="thumbnails/marco.jpg " />
-      </a>
-      <a href="https://www.youtube.com/watch?v=ARNeHAQOw0s" target="_blank">
-      <img class="thumbnail" src="thumbnails/Mchottamumbai.webp" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
-      <img class="thumbnail" src="thumbnails/M2018.jpg " />
-      </a>
-       <a href=" https://www.youtube.com/watch?v=bROIs4zMgjo" target="_blank">
-      <img class="thumbnail" src="thumbnails/M1983.jpg" />
-      </a>
-    </div>
-    </p>
-    <h1 class="title">Latest Malayalam &#xBB;</h1>
-    <div class="scrollmenu">
-      <a href="https://www.youtube.com/watch?v=L13AUL0HkDk" target="_blank">
-      <img class="thumbnail" src="thumbnails/kurup.jpg" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=pbgvTikmIMk" target="_blank">
-      <img class="thumbnail" src="thumbnails/oremam.jpg" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=6XruBxAL4ek" target="_blank">
-      <img class="thumbnail" src="thumbnails/neelakasham.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=v0-J9V6bZS8" target="_blank">
-      <img class="thumbnail" src="thumbnails/padayotam.jpg" />
-      <a href=" https://www.youtube.com/watch?v=UISTDTV-PI4" target="_blank">
-      <img class="thumbnail" src="thumbnails/carbon movie.jpg" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
-      <img class="thumbnail" src="thumbnails/underworld.png" />
-      </a>
-      <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
-      <img class="thumbnail" src="thumbnails/kaduva.png" />
-      </a>
-    </div>
 
-    <h1 class="title">Top English Movies&#xBB;</h1>
-    <div class="scrollmenu">
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng1.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng2.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng3.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng4.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng5.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng6.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/eng7.jpg" />
-      </a>
+      </p>
+      <h1 class="title">Latest Malayalam &#xBB;</h1>
+      <div class="scrollmenu">
+        <a href="https://www.youtube.com/watch?v=L13AUL0HkDk" target="_blank">
+        <img class="thumbnail" src="thumbnails/kurup.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Kurupp</h3>
+        <p class="thumbnail-year">2022</p>
     </div>
-    
-    <h1 class="title">Old Movies &#xBB;</h1>
-    <div class="scrollmenu">
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/ajagaja.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/images-2.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/images.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/koothara.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/iyyob.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/vaaya.jpg" />
-      </a>
-      <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
-      <img class="thumbnail" src="thumbnails/mayanadhi.png" />
-      </a>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=pbgvTikmIMk" target="_blank">
+        <img class="thumbnail" src="thumbnails/oremam.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Premam</h3>
+        <p class="thumbnail-year">2015</p>
     </div>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=6XruBxAL4ek" target="_blank">
+        <img class="thumbnail" src="thumbnails/neelakasham.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Neelakasham pachhakadal chuvannabhoomi</h3>
+        <p class="thumbnail-year">2013</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=v0-J9V6bZS8" target="_blank">
+        <img class="thumbnail" src="thumbnails/padayotam.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Padayottam</h3>
+        <p class="thumbnail-year">2019</p>
+    </div>
+        <a href=" https://www.youtube.com/watch?v=UISTDTV-PI4" target="_blank">
+        <img class="thumbnail" src="thumbnails/carbon movie.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Carbon</h3>
+        <p class="thumbnail-year">2020</p>
+    </div>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
+        <img class="thumbnail" src="thumbnails/underworld.png" >
+        <div class="body">
+        <h3 class="thumbnail-title">Underworld</h3>
+        <p class="thumbnail-year">2023</p>
+    </div>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
+        <img class="thumbnail" src="thumbnails/kaduva.png" >
+        <div class="body">
+        <h3 class="thumbnail-title">Kaduva</h3>
+        <p class="thumbnail-year">2022</p>
+    </div>
+        </a>
+      </div>
+  <h1 class="title">Top Hindi Movies &#xBB;</h1> 
+      <div class="scrollmenu">
+        <a href="https://www.youtube.com/watch?v=vEjTUDjjU6A" target="_blank">
+        <img class="thumbnail" src="thumbnails/hindi.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Tiger 3</h3>
+        <p class="thumbnail-year">2023</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=vEjTUDjjU6A" target="_blank">
+        <img class="thumbnail" src="thumbnails/hindi2.jpg" >
+         <div class="body">
+        <h3 class="thumbnail-title">Dangal</h3>
+        <p class="thumbnail-year">2015</p>
+    </div>
+        </a>   
+        <a href=" https://www.youtube.com/watch?v=vEjTUDjjU6A" target="_blank">
+        <img class="thumbnail" src="thumbnails/hindi3.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Padmavat</h3>
+        <p class="thumbnail-year">2022</p>
+    </div>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=AdwGOloQcAs" target="_blank">
+        <img class="thumbnail" src="thumbnails/hindi4.jpg " >
+        <div class="body">
+        <h3 class="thumbnail-title">Uri</h3>
+        <p class="thumbnail-year">2020</p>
+    </div>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=Af3cjNPhM4o" target="_blank">
+        <img class="thumbnail" src="thumbnails/hindi5.jpg " >
+        <div class="body">
+        <h3 class="thumbnail-title">Padmavat Tamil</h3>
+        <p class="thumbnail-year">2022</p>
+    </div>
+        </a>
+        <a href=" https://www.youtube.com/watch?v=bROIs4zMgjo" target="_blank">
+        <img class="thumbnail" src="thumbnails/hindi6.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Kaabil</h3>
+        <p class="thumbnail-year">2017</p>
+    </div>
+        </a>
+      </div>
+      <h1 class="title">Top English Movies &#xBB;</h1>
+      <div class="scrollmenu">
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng1.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Joker</h3>
+        <p class="thumbnail-year">2019</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng2.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Monster</h3>
+        <p class="thumbnail-year">2021</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng3.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Jhon Wick</h3>
+        <p class="thumbnail-year">2019</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng4.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">The Conjuring 2</h3>
+        <p class="thumbnail-year">2022</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng5.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Body Of Files</h3>
+        <p class="thumbnail-year">2023</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng6.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Captain America</h3>
+        <p class="thumbnail-year">2012</p>
 
-  
-  </body>
-</html>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/eng7.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Tenet</h3>
+        <p class="thumbnail-year">2024</p>
+    </div>
+        </a>
+      </div>
+      
+      <h1 class="title">Old Movies &#xBB;</h1>
+      <div class="scrollmenu">
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/ajagaja.jpg" >
+            <div class="body">
+        <h3 class="thumbnail-title">Ajagajantharam</h3>
+        <p class="thumbnail-year">2022</p>
+        
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/images-2.jpg" >
+           <div class="body">
+        <h3 class="thumbnail-title">Sakhav</h3>
+        <p class="thumbnail-year">2019</p>
+
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/images.jpg" >
+           <div class="body">
+        <h3 class="thumbnail-title">Kaamuki</h3>
+        <p class="thumbnail-year">2018</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/koothara.jpg" >
+           <div class="body">
+        <h3 class="thumbnail-title">Koothara</h3>
+        <p class="thumbnail-year">2016</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/iyyob.jpg" >
+           <div class="body">
+        <h3 class="thumbnail-title">Iyobinte Pusthakam</h3>
+        <p class="thumbnail-year">2014</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/vaaya.jpg" >
+        <div class="body">
+        <h3 class="thumbnail-title">Vazha 2</h3>
+        <p class="thumbnail-year">2022</p>
+    </div>
+        </a>
+        <a href="https://www.youtube.com/watch?v=zAGVQLHvwOY" target="_blank">
+        <img class="thumbnail" src="thumbnails/mayanadhi.png" >
+        <div class="body">
+        <h3 class="thumbnail-title">Mayanadhi</h3>
+        <p class="thumbnail-year">2019</p>
+    </div>
+        </a>
+      </div>
+
+    
+    </body>
+  </html>
